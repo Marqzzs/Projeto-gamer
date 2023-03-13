@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Gamer</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/script.js">
 
 </head>
 
@@ -43,13 +44,13 @@
         <div class="header-bottom">
             <div class="layout-grid aliamento-between-center">
                 <!-- menu hamburguer -->
-                <img class="menu-hamburguer" src="assets/icons/menu-hamburguer.svg"
+                <img onclick="mostrarMenu()" src="assets/icons/menu-hamburguer.svg" class="menu-hamburguer"
                     alt="icone para abrir e fechar o menu de celular">
 
                 <img src="assets/images/logotipo-gamer.png"
                     alt="logotipo da empresa, texto gamer com um joystick ao centro">
 
-                <nav class="menu">
+                <nav id="menu" class="menu">
                     <a href="">Inicio</a>
                     <a href="">Jogadores</a>
                     <a href="">Equipes</a>
@@ -58,27 +59,27 @@
 
                     <!-- Visivel apenas no mobile -->
 
-                    <div class="contatos">
-                        <div class="phone">
+                    <!-- <div class="contatos"> -->
+                        <a class="phone">
                             <img src="assets/icons/icone_telefone.svg" alt="icone de telefone">
                             <span>(11) 0900-1010</span>
-                        </div>
-                        <div class="email">
+                        </a>
+                        <a class="email">
                             <img src="assets/icons/icone_email.svg" alt="icone de email">
                             <span>contato@gamer.com.br</span>
-                        </div>
+                        </a>
+
                         <div class="midias-socias">
                             <a href="">
                                 <img src="assets/icons/icone_facebook.svg" alt="imagem link do facebook da empresa">
                             </a>
                             <a href="">
-                                <img src="assets/icons/icone_linkdin.svg" alt="imagem link do linkdin da empresa">
-                            </a>
-                            <a href="">
                                 <img src="assets/icons/icone_instagram.svg" alt="imagem link do instagram da empresa">
                             </a>
-
-                        </div>
+                            <a href="">
+                                <img src="assets/icons/icone_linkdin.svg" alt="imagem link do linkdin da empresa">
+                            </a>                           
+                    </div>
                 </nav>
 
                 <!-- menu 3 pontinhos -->
